@@ -51,6 +51,14 @@
 
 **ViseFS makes filesystem composition effortless and lossless.**
 
+**What ViseFS Enables:**
+- **Code Generators**: Automatically generate boilerplate code (e.g., API clients, data models) from schemas or templates—use for rapid prototyping, API integration, or scaffolding new features.
+- **File Transforms**: Apply on-the-fly transformations like minification, compilation, or format conversion—ideal for build processes, asset optimization, or cross-platform compatibility.
+- **Templates**: Dynamic expansion of project skeletons with variables resolved in real-time—perfect for multi-environment deployments, personalized configs, or consistent project structures.
+- **Synthetic Content**: Present generated or projected files as native—great for ephemeral build outputs, virtual overlays, or unified views across sources.
+
+**Real Uses**: Streamline CI/CD pipelines, manage multi-tenant apps, accelerate development with instant code generation, and maintain clean source trees without duplication.
+
 ---
 
 # Illustrative Scenarios
