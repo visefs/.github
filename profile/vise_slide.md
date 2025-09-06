@@ -93,6 +93,13 @@
 ## Template Expansion
 **Instantiated skeletons with resolved variables**
 
+## Real-Time Sprite Generation
+**A folder of individual images automatically generates a combined sprite file in real-time, visible in the folder as `sprites.png`, and editable as a unified image map**
+
+**Concept**: Drop PNG/JPG files into `images/`; ViseFS synthesizes `sprites.png` on-the-fly by combining them into a sprite sheet. Opening `sprites.png` shows the merged image; edits to individual files update the sprite instantly. No manual sprite creation—filesystem handles it dynamically.
+
+**Use Case**: Web development for optimized loading; game assets; icon libraries. Reduces HTTP requests, maintains source images separately.
+
 ---
 
 # Core Themes
